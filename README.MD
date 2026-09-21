@@ -44,6 +44,7 @@ Until furthur improvements and integration, there are some extra steps to use th
         gcc
     )
 6. You're good to go!
+(7.) Optional: set `unsigned int sceLibcPosixDisableFios2Init = 1` if you want to initialize FIOS2 yourself. By default it is initialized automatically by SceLibcPosix on startup.
 
 ## How to Build and Install
 1. Install [VitaSDK](https://vitasdk.org) 
